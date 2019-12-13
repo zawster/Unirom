@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="1020.0" style="-fx-background-color: #744F88;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sController.Student_Marks_C">
+
+    <children>
+        <VBox layoutY="-2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="80.0" style="-fx-background-color: #452153;">
+            <children>
+                <HBox alignment="CENTER" prefHeight="74.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" onMouseClicked="#dash" pickOnBounds="true" smooth="false">
+                            <image>
+                                <Image url="@../img/dashboard%20%5B%23671%5D.png" />
+                            </image>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" onMouseClicked="#homei" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="18.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/home%20%5B%231391%5D.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="84.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #744F88;">
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Stats.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" contrast="1.0" hue="0.21" saturation="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                    <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" />
+                    </effect>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="204.0" onMouseClicked="#courseReg" onMousePressed="#courseReg" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Notepad.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="264.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Diploma.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="384.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Read.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="324.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="22.0" fitWidth="23.0" onMouseClicked="#attendance" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Calendar.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="144.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Settings.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="444.0" onMouseClicked="#logout" prefHeight="95.0" prefWidth="80.0" style="-fx-background-color: #DD5043;">
+                    <children>
+                        <ImageView fitHeight="35.0" fitWidth="30.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/PNG/@1x/Filled/Rightarrowtag.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                    <effect>
+                        <DropShadow blurType="TWO_PASS_BOX" />
+                    </effect>
+                </HBox>
+            </children>
+            <effect>
+                <DropShadow blurType="TWO_PASS_BOX" />
+            </effect>
+        </VBox>
+        <Label contentDisplay="CENTER" layoutX="906.0" layoutY="24.0" opacity="0.94" text="STUDENT" textAlignment="CENTER" textFill="#2d2d37">
+            <font>
+                <Font name="Leelawadee UI Bold" size="22.0" />
+            </font>
+            <effect>
+                <Glow />
+            </effect>
+        </Label>
+        <HBox alignment="CENTER_LEFT" layoutX="857.0" layoutY="61.0" prefHeight="33.0" prefWidth="149.0" style="-fx-background-color: #452153;">
+            <children>
+                <HBox alignment="CENTER" prefHeight="60.0" prefWidth="80.0">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="80.0">
+                            <children>
+                                <HBox alignment="CENTER" prefHeight="46.0" prefWidth="71.0" style="-fx-background-color: #DD5043;">
+                                    <children>
+                                        <ImageView fitHeight="32.0" fitWidth="25.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../img/PNG/@1x/Filled/Rightarrowtag.png" />
+                                            </image>
+                                            <effect>
+                                                <ColorAdjust brightness="1.0" />
+                                            </effect>
+                                        </ImageView>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </HBox>
+                    </children>
+                </HBox>
+                <Label id="fd_logout" onMouseClicked="#logout" prefHeight="33.0" prefWidth="150.0" text="Logout" textFill="WHITE">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                    <padding>
+                        <Insets left="12.0" />
+                    </padding>
+                </Label>
+            </children>
+            <effect>
+                <DropShadow blurType="GAUSSIAN" />
+            </effect>
+        </HBox>
+
+        <HBox layoutX="94.0" layoutY="40.0" prefHeight="35.0" prefWidth="691.0">
+            <children>
+                <Label contentDisplay="CENTER" prefHeight="36.0" prefWidth="182.0" style="-fx-text-fill: #FFF;" text="Student Marks" textFill="WHITE">
+                    <opaqueInsets>
+                        <Insets right="20.0" />
+                    </opaqueInsets>
+                    <font>
+                        <Font name="System Bold" size="25.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                    </HBox.margin>
+                </Label>
+                <ComboBox fx:id="combo" onAction="#setlabel" prefWidth="150.0" promptText="Select Courses">
+                    <HBox.margin>
+                        <Insets left="150.0" top="6.0" />
+                    </HBox.margin>
+                </ComboBox>
+            </children>
+            <effect>
+                <Blend mode="BLUE" />
+            </effect>
+        </HBox>
+        <Label fx:id="course_name" layoutX="438.0" layoutY="98.0" text="Course Name" textFill="WHITE">
+            <font>
+                <Font size="13.0" />
+            </font></Label>
+        <Label fx:id="info_table" layoutX="103.0" layoutY="94.0" prefHeight="28.0" prefWidth="87.0" text="Table Name" textFill="WHITE" underline="true">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+
+        <Button fx:id="Quizes" layoutX="164.0" layoutY="523.0" mnemonicParsing="false" onAction="#for_table_quizes" prefHeight="25.0" prefWidth="70.0" text="Quizes" />
+        <Button fx:id="assign_btn" layoutX="252.0" layoutY="523.0" mnemonicParsing="false" onAction="#for_table_assignments" text="Assignments" />
+        <Button layoutX="356.0" layoutY="523.0" mnemonicParsing="false" onAction="#for_table_sessional" text="Sessionals" />
+        <Button layoutX="440.0" layoutY="523.0" mnemonicParsing="false" onAction="#for_table_final" prefHeight="25.0" prefWidth="49.0" text="Final" />
+        <Button layoutX="588.0" layoutY="523.0" mnemonicParsing="false" onAction="#for_Grand_total" text="Grand Total Marks" />
+        <Button fx:id="project" layoutX="516.0" layoutY="523.0" mnemonicParsing="false" onAction="#for_table_project" text="Project" />
+        <ScrollPane layoutX="172.0" layoutY="277.0" />
+          <TableView fx:id="table" layoutX="164.0" layoutY="139.0" prefHeight="348.0" prefWidth="509.0">
+              <columns>
+                  <TableColumn fx:id="No" prefWidth="68.66668701171875" text="No#" />
+                  <TableColumn fx:id="obtn_col" prefWidth="213.3333282470703" text="Obtained Marks" />
+                  <TableColumn fx:id="total_col" prefWidth="225.33340454101562" text="Total marks" />
+              </columns>
+          </TableView>
+    </children>
+
+</AnchorPane>
