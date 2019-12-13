@@ -1,13 +1,11 @@
 package mainP;
-
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
+// Starting point of Application  (main function)
 public class Main extends Application {
 
     Stage window;
