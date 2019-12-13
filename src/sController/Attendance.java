@@ -1,6 +1,5 @@
 package sController;
 
-
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -10,7 +9,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
+// Student Attendence
 public class Attendance {
     @FXML
     void logout(MouseEvent event) throws IOException {
