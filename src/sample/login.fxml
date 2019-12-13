@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1020.0" style="-fx-background-color: #744F88;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login">
+    <children>
+        <Label contentDisplay="CENTER" layoutX="925.0" layoutY="58.0" opacity="0.94" text="LOGIN" textAlignment="CENTER" textFill="#2d2d37">
+            <font>
+                <Font name="Leelawadee UI Bold" size="22.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="587.0" fitWidth="442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/ef57ac207bad4973a284296f17221ff5.jpg" />
+         </image>
+      </ImageView>
+        <Polygon fill="#2d2d37" layoutX="656.0" layoutY="95.0" points="-35.0, 13.0, 157.0, 19.0, -41.0, -61.0" stroke="#e4e2e2" strokeType="INSIDE" strokeWidth="0.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect></Polygon>
+        <Polygon fill="#2d2d37" layoutX="839.0" layoutY="102.0" points="-218.0, -77.0, 0.0, 5.0, 0.0, -60.0" stroke="WHITE" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect></Polygon>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="630.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../img/AS1.png" />
+            </image>
+            <effect>
+                <DropShadow />
+            </effect>
+        </ImageView>
+      <Label layoutX="563.0" layoutY="204.0" prefHeight="32.0" prefWidth="100.0" text="USERNAME:" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="563.0" layoutY="334.0" prefHeight="32.0" prefWidth="115.0" text="PASSWORD:" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="fd_pass" layoutX="563.0" layoutY="366.0" prefHeight="42.0" prefWidth="290.0" />
+      <Button id="fd_login" layoutX="563.0" layoutY="456.0" mnemonicParsing="false" onKeyPressed="#fd_login" onMouseClicked="#fd_login" prefHeight="49.0" prefWidth="169.0" text="LOGIN!">
+         <font>
+            <Font name="Ebrima" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="740.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#signup" prefHeight="49.0" prefWidth="115.0" text="REGISTER">
+         <font>
+            <Font name="Ebrima" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="fd_user" layoutX="563.0" layoutY="242.0" prefHeight="42.0" prefWidth="290.0" />
+    </children>
+</AnchorPane>

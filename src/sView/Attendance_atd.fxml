@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1025.0" style="-fx-background-color: #744F88;" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sController.Controller_attd">
+   <children>
+      <Polygon fill="#2d2d37" layoutX="453.0" layoutY="84.0" points="-35.0, 13.0, 157.0, 19.0, -41.0, -61.0" stroke="#e4e2e2" strokeType="INSIDE" strokeWidth="0.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect></Polygon>
+      <Polygon fill="#2d2d37" layoutX="636.0" layoutY="91.0" points="-218.0, -77.0, 0.0, 5.0, 0.0, -60.0" stroke="WHITE" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect></Polygon>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="427.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/AS1.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <VBox layoutY="-2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="80.0" style="-fx-background-color: #452153;">
+         <children>
+            <HBox alignment="CENTER" onMouseClicked="#dash" prefHeight="74.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" smooth="false">
+                     <image>
+                        <Image url="@../img/dashboard%20%5B%23671%5D.png" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" onMouseClicked="#homei" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="18.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/home%20%5B%231391%5D.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="84.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #744F88;">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Stats.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" contrast="1.0" hue="0.21" saturation="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" />
+               </effect>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="204.0" onMousePressed="#courseReg" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Notepad.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="264.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Diploma.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="384.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Read.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="324.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="22.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Calendar.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="144.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Settings.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="444.0" onMouseClicked="#logout" prefHeight="95.0" prefWidth="80.0" style="-fx-background-color: #DD5043;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="30.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/PNG/@1x/Filled/Rightarrowtag.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children>
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" />
+               </effect>
+            </HBox>
+         </children>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </VBox>
+      <Label contentDisplay="CENTER" layoutX="906.0" layoutY="24.0" opacity="0.94" text="STUDENT" textAlignment="CENTER" textFill="#2d2d37">
+         <font>
+            <Font name="Leelawadee UI Bold" size="22.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <HBox alignment="CENTER_LEFT" layoutX="857.0" layoutY="61.0" prefHeight="33.0" prefWidth="149.0" style="-fx-background-color: #452153;">
+         <children>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="80.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="80.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="46.0" prefWidth="71.0" style="-fx-background-color: #DD5043;">
+                           <children>
+                              <ImageView fitHeight="32.0" fitWidth="25.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/PNG/@1x/Filled/Rightarrowtag.png" />
+                                 </image>
+                                 <effect>
+                                    <ColorAdjust brightness="1.0" />
+                                 </effect>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <Label id="fd_logout" onMouseClicked="#logout" prefHeight="33.0" prefWidth="150.0" text="Logout" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="12.0" />
+               </padding>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect>
+      </HBox>
+      <HBox layoutX="88.0" layoutY="109.0" prefHeight="54.0" prefWidth="755.0" style="-fx-background-color: #E8EAE3;" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="177.0" AnchorPane.topAnchor="109.0">
+         <children>
+            <Label contentDisplay="TOP" prefHeight="51.0" prefWidth="276.0" style="-fx-background-color: #425664;" text="   Registered Courses" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <HBox />
+            <ComboBox fx:id="comboBox" onAction="#print_Data_on_table" prefHeight="34.0" prefWidth="167.0" promptText="           Select Courses" style="-fx-background-color: #E56B1F;">
+               <HBox.margin>
+                  <Insets left="250.0" top="12.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="MOVE" />
+               </cursor>
+            </ComboBox>
+         </children>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </HBox>
+      <Text fill="WHITE" layoutX="533.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance Percentage:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="show_percentage" layoutX="731.0" layoutY="170.0" prefHeight="33.0" prefWidth="62.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="197.0" layoutY="219.0" prefHeight="338.0" prefWidth="355.0">
+         <columns>
+            <TableColumn fx:id="lec_no" prefWidth="68.0" text="Lecture No" />
+            <TableColumn fx:id="date" prefWidth="117.0" text="Date" />
+            <TableColumn fx:id="duration" prefWidth="108.0" text="Duration" />
+            <TableColumn fx:id="presence" prefWidth="59.0" text="Presence" />
+         </columns>
+      </TableView>
+
+
+
+
+
+   </children>
+</AnchorPane>
