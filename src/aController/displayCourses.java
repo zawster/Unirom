@@ -24,7 +24,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
-
+// diplay all courses
 public class displayCourses implements Initializable{
 
     @FXML

@@ -15,13 +15,12 @@ import javafx.stage.Stage;
 import mainP.Course;
 import mainP.Teacher;
 import utilities.sqliteConnection;
-
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+// main courses class
 public class courses {
     ObservableList<Integer> creditlist= FXCollections.observableArrayList(1,2,3,4);
     @FXML

@@ -12,7 +12,6 @@ import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import utilities.sqliteConnection;
-
 import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
@@ -21,6 +20,7 @@ import java.sql.Statement;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
+// all users class
 public class users implements Initializable {
 
     @FXML

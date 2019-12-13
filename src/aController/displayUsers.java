@@ -26,7 +26,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
-
+// display users
 public class displayUsers implements Initializable {
 
     @FXML
