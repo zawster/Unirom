@@ -1,5 +1,4 @@
 package fController;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -21,7 +20,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
-
+// Faculty Attendence
 public class attendenceFaculty implements Initializable {
 
 
