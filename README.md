@@ -5,11 +5,11 @@ This is my university semester project. This software is built in JavaFX languag
 All the tasks i mentioned above are implemented in this application. Though this is my semester project so it is as much as perfect. Because in semesters we have limited time to submit iterations and final working product. So here are some clicks of my application.
 ### Main Window
 ![main window](https://raw.githubusercontent.com/zawster/Unirome/master/images/main-1.png)
-
+<hr>
 
 ### Faculty Dashboard
 ![faculty dashboard](https://raw.githubusercontent.com/zawster/Unirome/master/images/facultyDash-2.png)
-
+<hr>
 
 ### Admin Dashboard
 ![admin dashboard](https://raw.githubusercontent.com/zawster/Unirome/master/images/adminHome-3.png)
