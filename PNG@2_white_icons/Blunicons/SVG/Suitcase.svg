@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Suitcase</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(2.000000, 8.000000)">
+            <path d="M0,10.0017826 C0,7.23937435 1.86252125,6.22757083 4.17908113,7.75439438 L39.8209189,31.2456056 C42.1289616,32.7668156 41.7575421,34 38.9954787,34 L5.00452127,34 C2.24060049,34 0,31.7605744 0,28.9982174 L0,10.0017826 Z" id="Rectangle-83" fill="#CFDCEE" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-83-Copy" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="0" y="5" width="44" height="29" rx="5"></rect>
+            <rect id="Rectangle-84" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="14" y="0" width="16" height="7"></rect>
+            <rect id="Rectangle-85" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="6" y="33" width="8" height="3"></rect>
+            <rect id="Rectangle-85-Copy" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="30" y="33" width="8" height="3"></rect>
+        </g>
+    </g>
+</svg>

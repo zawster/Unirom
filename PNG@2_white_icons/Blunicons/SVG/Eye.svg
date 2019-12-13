@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-64-+-Oval-66" sketch:type="MSLayerGroup" transform="translate(4.000000, 12.000000)" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M41,13 C37.3613765,20.659483 29.5543307,25.9550166 20.5104467,25.9550166 C11.4665628,25.9550166 3.65951696,20.659483 0.0208934916,13 C3.65951696,5.34051703 11.4665628,0.0449834432 20.5104467,0.0449834432 C29.5543307,0.0449834432 37.3613765,5.34051703 41,13 Z" id="Oval-64" sketch:type="MSShapeGroup"></path>
+            <path d="M20.5,21 C24.6421356,21 28,17.6421356 28,13.5 C28,9.35786438 24.6421356,6 20.5,6 C16.3578644,6 13,9.35786438 13,13.5 C13,17.6421356 16.3578644,21 20.5,21 Z M19,15 C20.6568542,15 22,13.6568542 22,12 C22,10.3431458 20.6568542,9 19,9 C17.3431458,9 16,10.3431458 16,12 C16,13.6568542 17.3431458,15 19,15 Z" id="Oval-66" fill="#CFDCEE" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

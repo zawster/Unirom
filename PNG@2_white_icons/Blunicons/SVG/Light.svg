@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(9.000000, 2.000000)">
+            <path d="M15,21 C22.5,21 30,17.304247 30,15.1794872 C30,6.7960879 23.2842712,0 15,0 C6.71572875,0 0,6.7960879 0,15.1794872 C0,17.304247 7.5,21 15,21 Z" id="Oval-60" fill="#CFDCEE" sketch:type="MSShapeGroup"></path>
+            <path d="M8.25631729,29.4152922 C10.9613936,33.7327578 6,37 15,37 C24,37 19.0386064,33.7327578 21.7436827,29.4152922 C24.5244302,24.9770509 30,19.4290069 30,15.1794872 C30,6.7960879 23.2842712,0 15,0 C6.71572875,0 0,6.7960879 0,15.1794872 C0,19.4290069 5.47556984,24.9770509 8.25631729,29.4152922 Z" id="Oval-60-Copy" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <path d="M11,41 L19,41" id="Line" stroke="#4371BC" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <path d="M11,44 L19,44" id="Line-Copy-36" stroke="#4371BC" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <path d="M7,17 L13,11 L19,17" id="Triangle-11" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <path d="M11.5,17 L17.5,11 L23.5,17" id="Triangle-11-Copy" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group-Copy-5" sketch:type="MSLayerGroup" transform="translate(3.000000, 2.000000)">
+            <path d="M27.5,24.4999999 L42,41.0067126 C42,42.1075748 41.1033397,43 40.0025078,43 L1.99749218,43 C0.894307712,43 7.10542736e-14,42.1002873 7.10542736e-14,41.0067126 L15,24.4999999 C15,23.3991376 21,28 21,28" id="Rectangle-82" fill="#CFDCEE" sketch:type="MSShapeGroup"></path>
+            <path d="M40.0025078,14 C41.1056923,14 42,14.8997127 42,15.9932874 L42,41.0067126 C42,42.1075748 41.1033397,43 40.0025078,43 L1.99749218,43 C0.894307712,43 0,42.1002873 0,41.0067126 L0,15.9932874 C0,14.8924252 0.896660339,14 1.99749218,14" id="Rectangle-82-Copy" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <path d="M2,28 L21,14 L40,28" id="Triangle-13" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" transform="translate(21.000000, 21.000000) scale(-1, -1) translate(-21.000000, -21.000000) "></path>
+            <path d="M2,14 L21,0 L40,14" id="Triangle-13-Copy" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" transform="translate(21.000000, 7.000000) scale(-1, 1) translate(-21.000000, -7.000000) "></path>
+            <path d="M15,24 L1,42" id="Line" stroke="#4371BC" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            <path d="M41,24 L27,42" id="Line-Copy-38" stroke="#4371BC" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" sketch:type="MSShapeGroup" transform="translate(34.000000, 33.000000) scale(-1, 1) translate(-34.000000, -33.000000) "></path>
+        </g>
+    </g>
+</svg>

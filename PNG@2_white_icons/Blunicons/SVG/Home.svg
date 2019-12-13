@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(5.000000, 3.000000)">
+            <rect id="Rectangle-57" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="5" y="16" width="28" height="25"></rect>
+            <polygon id="Triangle-6" fill="#CFDCEE" sketch:type="MSShapeGroup" points="19 0 38 16 13.5 16 "></polygon>
+            <polygon id="Triangle-6-Copy" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" points="19 0 38 16 0 16 "></polygon>
+            <rect id="Rectangle-58" stroke="#4371BC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#CFDCEE" sketch:type="MSShapeGroup" x="14" y="29" width="11" height="13"></rect>
+        </g>
+    </g>
+</svg>

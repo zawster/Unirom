@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>List</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(7.000000, 8.000000)" stroke="#4371BC" stroke-width="2" stroke-linejoin="round">
+            <rect id="Rectangle-60" stroke-linecap="round" fill="#CFDCEE" sketch:type="MSShapeGroup" x="0" y="0" width="8" height="7"></rect>
+            <rect id="Rectangle-60-Copy" stroke-linecap="round" fill="#CFDCEE" sketch:type="MSShapeGroup" x="0" y="13" width="8" height="7"></rect>
+            <rect id="Rectangle-60-Copy-2" stroke-linecap="round" fill="#CFDCEE" sketch:type="MSShapeGroup" x="0" y="26" width="8" height="7"></rect>
+            <path d="M12,5 L35.0217285,5" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M12,18 L35.0217285,18" id="Line-Copy-32" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M12,31 L35.0217285,31" id="Line-Copy-33" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

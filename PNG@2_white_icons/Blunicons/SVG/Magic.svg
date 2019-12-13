@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Magic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-37-+-Line-+-Oval-24" sketch:type="MSLayerGroup" transform="translate(11.000000, 3.000000)" stroke="#4371BC" stroke-width="2" stroke-linejoin="round">
+            <rect id="Rectangle-37" stroke-linecap="round" sketch:type="MSShapeGroup" x="0" y="7" width="26" height="36" rx="19"></rect>
+            <path d="M13,8 L13,0" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-24" stroke-linecap="round" fill="#CFDCEE" sketch:type="MSShapeGroup" cx="13" cy="17" r="2"></circle>
+        </g>
+    </g>
+</svg>
