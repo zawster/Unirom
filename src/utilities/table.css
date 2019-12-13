@@ -5,6 +5,7 @@
     -fx-background-color: transparent;
 }
 
+
 /* The column header row is made up of a number of column-header, one for each
    TableColumn, and a 'filler' area that extends from the right-most column
    to the edge of the tableview, or up to the 'column control' button. */
