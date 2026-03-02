@@ -2,8 +2,35 @@
 University Management System developed in JavaFX.
 <hr>
 
-## Basic Introduction
-This is my university semester project. This software is developed in JavaFX language and I use MySQL for databases. This application is basically used to handle university tasks. For example, Teacher upload marks, attendance etc, and students can view marks, attendance. Student has also options to register the courses, see the full study plan of different semesters. He also can view his/her fee details of registered courses. Students can also see his/her transcript. There is an admin who handles the overall process. Admin can add new Students also can add new Faculty members and assign him a course. Admin can also add new courses and can delete existing courses. All the tasks I mentioned above are implemented in this application. Though this is my semester project so it is as much as perfect. Because in semesters we have limited time to submit iterations and final working product. So here are some clicks of my application.
+## Introduction
+This project was developed as part of my university semester coursework.  
+The application is built using **JavaFX** for the frontend and **MySQL** as the database.
+
+The system is designed to manage various university-related tasks and provides role-based functionality for students, teachers, and administrators.
+
+### Features
+
+#### Teacher Module
+- Upload student marks
+- Manage student attendance records
+
+#### Student Module
+- View marks and attendance
+- Register for courses
+- View complete semester study plans
+- Check fee details for registered courses
+- View academic transcripts
+
+#### Admin Module
+- Add new students
+- Add new faculty members
+- Assign courses to faculty
+- Add new courses
+- Delete existing courses
+- Manage overall system operations
+
+All of the above functionalities are implemented within this application.
+
 <hr>
 
 ### Main Window
@@ -54,6 +81,10 @@ This is my university semester project. This software is developed in JavaFX lan
 ### Admin Update creditHrs Fee
 ![View All Users](https://raw.githubusercontent.com/zawster/Unirome/master/images/updateFee-12.png)
 <hr>
+
+### Note
+
+Since this is a semester project, the application may not be perfect due to limited development time and submission deadlines. However, it demonstrates the core concepts and functionality required for a university management system.
 
 
 
