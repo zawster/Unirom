@@ -1,6 +1,4 @@
 # Unirom
-University Management System developed in JavaFX.
-<hr>
 
 ## Introduction
 This project was developed as part of my university semester coursework.  
